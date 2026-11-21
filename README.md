@@ -3,6 +3,8 @@
 A Claude Code / Claude Desktop pane that shows your Claude Code usage and
 **estimated** cost, powered by [ccusage](https://github.com/ryoppippi/ccusage).
 
+![The ccusage pane in Claude Desktop](docs/screenshot.png)
+
 It shows today's cost, this month's cost, the last 35 days, the last 7 days
 (cost and output tokens) and a per-model breakdown. It refreshes every 5
 minutes and has a Refresh button.
