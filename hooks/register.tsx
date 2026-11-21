@@ -120,7 +120,9 @@ export const register: Register = on => {
 
     return (
       <Box flexDirection="column">
-        <Button key="refresh" onPress={() => refresh($)}>
+        <Button key="refresh" onPress={() => {
+            void refresh($)
+          }}>
           {isLoading ? 'Refreshing…' : 'Refresh'}
         </Button>
         {error !== null && <Text color="red">Error: {error}</Text>}
